@@ -1,0 +1,96 @@
+body{
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+.picture {
+    width: 300px;
+    height: 225px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin: 350px auto;
+}
+
+.balloon1 {
+    position: absolute;
+    margin: -650px 500px;
+    padding-top: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.balloon1:after {
+    border-top:0px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid skyblue;
+    content:"";
+    position:absolute;
+    top:50px;
+    left:190px;
+}
+.balloon2 {
+    position: absolute;
+    margin: -350px 500px;
+    padding-top: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.balloon2:after {
+    border-top: 10px solid skyblue;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 190px;
+}
+.balloon3 {
+    position: absolute;
+    margin: -350px 500px -350px 1200px;
+    padding-top: 10px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.balloon3:after {
+    border-top:15px solid skyblue;
+    border-left: 15px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    content:"";
+    position:absolute;
+    top:10px;
+    left:-15px;
+}
+
+.balloon4 {
+    position: absolute;
+    margin: -650px 500px -650px 1200px;
+    padding-top: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px
+}
+.balloon4:after {
+    border-top:0px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid skyblue;
+    content:"";
+    position:absolute;
+    top:50px;
+    right: 190px;
+}
